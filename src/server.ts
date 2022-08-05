@@ -12,4 +12,5 @@ app.use(cors());
 app.use(routes);
 app.use(errorHandler);
 
+// export default app;
 app.listen(PORT, () => console.log(`Server running in http://localhost:${PORT}`));

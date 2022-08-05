@@ -4,7 +4,7 @@ CREATE TABLE `Movie` (
     `title` VARCHAR(191) NOT NULL,
     `image` VARCHAR(191) NOT NULL,
     `movie_banner` VARCHAR(191) NOT NULL,
-    `description` VARCHAR(191) NOT NULL,
+    `description` LONGTEXT NOT NULL,
     `director` VARCHAR(191) NOT NULL,
     `producer` VARCHAR(191) NOT NULL,
     `release_date` INTEGER NOT NULL,
